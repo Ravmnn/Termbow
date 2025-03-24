@@ -18,5 +18,9 @@
         <None Include="../README.md" Pack="true" PackagePath="./"/>
         <None Include="../LICENSE" Pack="true" PackagePath="./"/>
     </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Fint" Version="0.1.0" />
+    </ItemGroup>
     
 </Project>
