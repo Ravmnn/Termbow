@@ -4,6 +4,19 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>0.1.0</Version>
+        <Title>Simple library for handling colors on the terminal.</Title>
+        <Authors>Ravmn</Authors>
+        <Copyright>GPLv3</Copyright>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/Ravmnn/Termbow</RepositoryUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="./"/>
+        <None Include="../LICENSE" Pack="true" PackagePath="./"/>
+    </ItemGroup>
+    
 </Project>
